@@ -1,0 +1,38 @@
+extends  templates/main
+
+
+block content
+  //- 1 _header
+  .container-fuild
+    include header/_header
+  //- 2 _companyheader
+  .container-fuild
+    include companyheader/_companyheader
+  //- 3 _aboutourcompany
+  .container-fuild
+    include aboutourcompany/_aboutourcompany
+  //- 4 _corporetedevelopmen
+  .container-fuild
+    include CorporateDevelopment/_corporetedevelopmen
+  //- 5 _people
+  .container-fuild
+    include people/_people
+  //- 6 _consulting
+  .container-fuild
+    include consulting/_consulting
+  //- 7 _dreamapp
+  .container-fuild
+    include dreamapp/_dreamapp
+  //- 8 _corporatetraiding
+  .container-fuild
+    include CorporateTraining/_corporatetraiding
+  //- 9 _locationcontact
+  .container-fuild
+    include locationcontact/_locationcontact
+  //- 10 _footer
+  .container-fuild
+    include footer/_footer
+
+
+  block script
+    script(src="src/js/script.js")

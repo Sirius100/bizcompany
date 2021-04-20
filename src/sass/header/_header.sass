@@ -1,0 +1,43 @@
+.container-fuild:nth-child(1)
+  background: $big-color1
+  .container
+    position: relative
+    overflow: hidden
+  header
+    display: flex
+    justify-content: space-between
+    align-items: center
+    color: $menu-color1
+    width: 100%
+    padding: 1em 0 1em 0
+    h3
+      font-family: Roboto, Arial, sans-serif
+      font-weight: 500
+  .menu
+    width: 1.5em
+    height: 1.5em
+    position: relative
+    right: 0
+    cursor: pointer
+    span
+      top: 45%
+
+  .menu::before, .menu::after, span
+    background: $menu-color1
+    position: absolute
+    width: 1.5em
+    height: 0.15em
+  .menu::before, .menu::after
+    content: ""
+  .menu::before
+    top: 0
+  .menu::after
+    bottom: 0
+  // nav
+  //   height: 75vh
+  //   background: $menu-color2
+  //   position: absolute
+  //   right: 90%
+  //   top: 0
+  //   ul a
+  //     color: $menu-color1

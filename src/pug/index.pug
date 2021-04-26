@@ -29,10 +29,13 @@ block content
   //- 9 _locationcontact
   .container-fuild
     include locationcontact/_locationcontact
-  //- 10 _footer
+  //- 10 _locationcontact
+  .container-fuild
+    include sublocationcontact/_sublocationcontact
+  //- 11 _footer
   .container-fuild
     include footer/_footer
 
 
   block script
-    script(src="src/js/script.js")
+    script(type="module" src="src/js/script.js")

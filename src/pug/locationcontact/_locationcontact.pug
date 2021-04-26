@@ -1,0 +1,38 @@
+section
+  .container
+    .row.justify-content-center
+      .col-12.col-sm-6
+        .location_wrap
+          .location_wrap_addres
+            h4 location
+            p.lead
+              | 28 Jackson Blvd Ste 1020
+              br
+              | Chicago  IL 60604-2340
+          .location_wrap_socnet
+            h4 follow us
+            p.lead
+
+              a(href="https://www.facebook.com")
+                img(title="facebook" src="src/img/003-facebook-1.svg", alt="facebook")
+              a(href="https://twitter.com/")
+                img(title="twitter" src="src/img/004-twitter.svg", alt="twitter")
+              a(href="https://www.instagram.com/")
+                img(title="instagram" src="src/img/002-instagram.svg", alt="instagram")
+              a(href="https://vk.com")
+                img(title="vk" src="src/img/free-icon-vk-1051359.png", alt="vk")
+
+            p.pt-4
+              | &copy; Privacy policy
+      .col-12.col-sm-6
+        .contact_wrap
+          .contact_wrap_form
+            h2 contact form
+            form
+              input(type='text' name='human_name' placeholder="Enter Your Name")
+              br
+              input(type='email' name='human_email' placeholder="Enter a valid email addres")
+              br
+              textarea#msg(name="human_msg", cols="30", rows="5")
+              br
+              input(type='submit' value='Submit')

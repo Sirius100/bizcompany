@@ -1,35 +1,25 @@
 .container-fuild:nth-child(2)
-  background: $big-color1
-  section
-    h1
-      color: $menu-color4
-      font-family: Oswald, Arial, sans-serif
-      font-size: 3.5em
-      font-weight: 700
-      line-height: 1.5em
-      margin-right: 40%
-      margin-bottom: 250px
-    .fon_square
-      width: calc(((100% - 940px) / 2) + 403px)
-      height: 632px
-      left: 0vw
-      top: -803px
-      position: relative
-      background: $menu-color5
-    .row:nth-child(2)
-      flex-wrap: nowrap
-    .col-12.col-sm-9
+  background-image: url(../img/companyhome.png)
+  background-repeat: no-repeat
+  background-size: 100% 120%
+  background-position: 100% 50%
+  padding: 4em 0 12em 0
+  height: 660px
+  .container
+    padding: 0 0
 
-      z-index: 100
-      img
-        width: 799px
-        height: 656px
-    .col-12.col-sm-9 + .col-12.col-sm-8
-      display: flex
-      flex-flow: wrap
-      z-index: 200
-      margin-left: -15em
-      .card
-        border-radius: 0
-        h5
-          text-transform: uppercase
+  .row
+    h1,h5
+      text-transform: uppercase
+      color: $big-color1
+      text-align: left
+    h1
+      font-family: Oswald, Arial, sans-serif
+      font-weight: 700
+      font-size: 6em
+    h5
+      font-family: Roboto, Arial, sans-serif
+      font-weight: 200
+      color: hsla(216, 11%, 18%, 1)
+      font-size: 1.25em
+      letter-spacing: 4px

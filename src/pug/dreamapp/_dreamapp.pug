@@ -2,9 +2,45 @@ section
   .container
     .row
       h1 Нужна качественная разработка для лендинга вашей мечты?
+    .row
       .col-12.col-sm-9
         img(src="src/img/1-foto.jpg")
-      .col-12.col-sm-3
+        //-  класс ove служит конвеером для svg круга
+        .ove
+          include  ../../img/ove
 
+      .col-12.col-sm-8
+        .col-12.col-sm-5
+          .card
+            .card-body
+              .svg_card-body
+                include ../../img/kist
+              h5.card-title стратегия
+              p.card-text
+                | This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+        .col-12.col-sm-5
+          .card
+            .card-body
+              .svg_card-body
+                include ../../img/parker
+              h5.card-title ux Дизайн
+              p.card-text
+                | This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+        .col-12.col-sm-5
+          .card
+            .card-body
+              .svg_card-body
+                include ../../img/screen
+              h5.card-title разработка
+              p.card-text
+                | This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+        .col-12.col-sm-5
+          .card
+            .card-body
+              .svg_card-body
+                include ../../img/bug
+              h5.card-title тестирование
+              p.card-text
+                | This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
 
-  .fon_square
+    .fon_square

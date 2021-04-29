@@ -9,7 +9,16 @@
 @mixin people480_575
   .container-fuild:nth-child(5)
     padding: 2em 1em
-    h3
+    section h3
+      font-size: 2.1em
+    section .col-12.col-sm-6:nth-child(2)
+      p
+        margin-top: 1em
+// @media screen and (min-width: 320px) and ( max-width:  480px)
+@mixin people320_480
+  .container-fuild:nth-child(5)
+    padding: 2em 1em
+    section h3
       font-size: 2.1em
     section .col-12.col-sm-6:nth-child(2)
       p

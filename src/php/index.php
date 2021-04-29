@@ -15,6 +15,7 @@
     <title>Bizcompany</title>
   </head>
   <body>
+    <!-- 1 _header-->
     <div class="container-fuild">
       <div class="container">
         <div class="row">
@@ -39,6 +40,7 @@
         </div>
       </div>
     </div>
+    <!-- 2 _companyheader-->
     <div class="container-fuild">
       <div class="container">
         <section>
@@ -51,17 +53,19 @@
         </section>
       </div>
     </div>
+    <!-- 3 _aboutourcompany-->
     <div class="container-fuild">
       <div class="container">
         <section>
           <div class="row">
             <h6>about our company</h6>
-            <h3>Deliver instructor-led or self-guided training with&nbsp;<span>hands-on</span>&nbsp; lab exercises for groups. Virtual classrooms of any | size can be provisioned in minutes without&nbsp;<span>IT support</span></h3>
+            <h3>Deliver instructor-led or self-guided training with&nbsp;<span>hands-on</span>&nbsp; lab exercises for groups. Virtual classrooms of any size can be provisioned in minutes without&nbsp;<span>IT support</span></h3>
             <div class="share"></div>
           </div>
         </section>
       </div>
     </div>
+    <!-- 4 _corporetedevelopmen-->
     <div class="container-fuild">
       <div class="container">
         <section>
@@ -92,6 +96,7 @@
         </section>
       </div>
     </div>
+    <!-- 5 _people-->
     <div class="container-fuild">
       <div class="container">
         <section>
@@ -110,20 +115,21 @@
         </section>
       </div>
     </div>
+    <!-- 6 _consulting-->
     <div class="container-fuild">
       <section>
         <div class="container">
           <div class="row justify-content-between">
-            <div class="col-12 col-sm-6 px-0">
+            <div class="col-12 col-md-6 px-0">
               <div class="container-wrapper">
                 <div class="container-wrapper_for_foto">
                   <div class="foto_1"></div>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-sm-6 px-0">
+            <div class="col-12 col-md-6 px-0">
               <div class="container-wrapper">
-                <div class="rows d-flex flex-row">
+                <div class="rows">
                   <div class="txt_block">
                     <div class="self_txt_block">
                       <h5>Consulting</h5>
@@ -134,7 +140,7 @@
                     <div class="self_foto_block"></div>
                   </div>
                 </div>
-                <div class="rows d-flex flex-row">
+                <div class="rows">
                   <div class="foto_block">
                     <div class="self_foto_block"></div>
                   </div>
@@ -146,6 +152,7 @@
         </div>
       </section>
     </div>
+    <!-- 7 _dreamapp-->
     <div class="container-fuild">
       <section>
         <div class="container">
@@ -160,7 +167,9 @@
                 </svg>
               </div>
             </div>
-            <div class="col-12 col-sm-8">
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-10">
               <div class="col-12 col-sm-5">
                 <div class="card">
                   <div class="card-body">
@@ -269,6 +278,7 @@
         </div>
       </section>
     </div>
+    <!-- 8 _corporatetraiding-->
     <div class="container-fuild">
       <section>
         <div class="container">
@@ -291,6 +301,7 @@
         </div>
       </section>
     </div>
+    <!-- 9 _locationcontact-->
     <div class="container-fuild">
       <section>
         <div class="container">
@@ -325,11 +336,15 @@
         </div>
       </section>
     </div>
+    <!-- 10 _sublocationcontact-->
     <div class="container-fuild"></div>
+    <!-- 11 _footer-->
     <div class="container-fuild">
       <div class="container">
         <div class="row justify-content-center text-center">
-          <p>Created with help LEADING</p>
+          <p>Created with help LEADING &nbsp;</p>
+          <p><a href="malito:Good.web@yahoo.com">Задавайте вопросы по электронной почте. &nbsp;</a></p>
+          <p>Good.web@yahoo.com</p>
         </div>
       </div>
     </div>

@@ -1,0 +1,177 @@
+// @media screen and ( min-width:  1200px)
+@mixin dreamapp1200
+  .container-fuild:nth-child(7)
+    section
+      .col-12.col-sm-9
+        padding-left: 0
+      .row:nth-child(3)
+        // @supports (-webkit-appearance:none)
+        //   .col-12.col-sm-10
+        //     margin-left: 35em
+        .col-12.col-sm-10
+          // for mozilla
+          // margin-left: 21.4em
+          // for webkit
+          margin-left: 28em
+
+          .card
+            max-width: 300px
+
+
+// @media screen and (min-width: 992px) and ( max-width:  1024px)
+@mixin dreamapp992_1024
+  .container-fuild:nth-child(7)
+    section
+      .row:nth-child(3)
+        .col-12.col-sm-10
+          margin-left: 20.4em
+          margin-top: -39em
+          .col-12.col-sm-5:nth-child(even)
+            margin-left: -3em
+          .card
+            max-width: 250px
+    .card-body
+      padding: .8em .8em
+      h5
+        font-size: 1.1em
+      p
+        font-size: 1em
+// @media screen and (min-width: 768px) and ( max-width:  991px)
+@mixin dreamapp768_991
+  .container-fuild:nth-child(7)
+    section
+      .container
+        margin-bottom: 1em
+      h1
+        margin-right: 0%
+        margin-bottom: 50px
+      .fon_square
+        height: 600px
+        top: 300px
+      .row:nth-child(3)
+
+        .col-12.col-sm-10
+          max-width: 100%
+          flex: 0 0 100%
+          justify-content: space-between
+          margin-left: 0em
+          margin-top: 1em
+        .col-12.col-sm-5
+          margin: 1em 0
+          padding: 0
+          .card
+            max-width: 250px
+
+// @media screen and (min-width: 576px) and ( max-width:  767px)
+@mixin dreamapp576_767
+  .container-fuild:nth-child(7)
+    padding-left: .5em
+    padding-right: .5em
+    section
+      .container
+        padding: 0 0
+        margin-bottom: 1em
+
+      .col-12.col-sm-9
+        padding-left: 0
+
+      .row:nth-child(3)
+        .col-12.col-sm-10
+          flex: 0 0 100%
+          max-width: 100%
+          justify-content: space-between
+          margin-left: 0em
+          margin-top: 1em
+          padding-left: 0
+          padding-right: 0
+        .col-12.col-sm-5
+          margin: 1em 0
+          padding: 0
+          .card
+            max-width: 250px
+            .card-body
+              padding: .7em
+            h5
+              font-size: 1em
+
+      h1
+        margin-right: 0
+        margin-bottom: 100px
+        font-size: 2.5em
+      .fon_square
+        top: 217px
+
+// @media screen and (min-width: 480px) and ( max-width:  576px)
+@mixin dreamapp480_576
+  .container-fuild:nth-child(7)
+    section
+      .container
+        padding: 0 0
+        margin-bottom: 1em
+      .col-12.col-sm-9
+        padding-left: 0
+
+      .row:nth-child(3)
+        .col-12.col-sm-10
+          flex: 0 0 100%
+          max-width: 100%
+          // justify-content: center
+          margin-left: 0em
+          margin-top: 1em
+          padding-left: 0
+          padding-right: 0
+        .col-12.col-sm-5
+          margin: 1em 0
+          padding: 0
+          .card
+            margin: auto
+            max-width: 250px
+            .card-body
+              padding: .7em
+            h5
+              font-size: 1em
+
+      h1
+        margin-right: 0
+        margin-left: 0.5em
+        margin-bottom: 100px
+        font-size: 2.5em
+      .fon_square
+        top: 320px
+
+// @media screen and (min-width: 320px) and ( max-width:  479px)
+@mixin dreamapp320_479
+  .container-fuild:nth-child(7)
+    section
+      .container
+        padding: 0 0
+        margin-bottom: 1em
+      .col-12.col-sm-9
+        padding-left: 0
+
+      .row:nth-child(3)
+        .col-12.col-sm-10
+          flex: 0 0 100%
+          max-width: 100%
+          margin-left: 0em
+          margin-top: 1em
+          padding-left: 0
+          padding-right: 0
+        .col-12.col-sm-5
+          margin: 1em 0
+          padding: 0
+          .card
+            margin: auto
+            max-width: 250px
+            .card-body
+              padding: .7em
+            h5
+              font-size: 1em
+
+      h1
+        margin-right: 0
+        margin-left: 0.5em
+        margin-bottom: 100px
+        font-size: 2em
+      .fon_square
+        top: 320px

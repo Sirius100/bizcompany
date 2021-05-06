@@ -1,0 +1,148 @@
+// @media screen and ( min-width:  1200px)
+
+
+// @media screen and (min-width: 992px) and ( max-width:  1024px)
+@mixin locationcontact992_1024
+  .container-fuild:nth-child(9)
+    .location_wrap
+      p
+        padding-top: .5em
+      .location_wrap_socnet
+        padding-top: 0em
+
+    .location_wrap
+      padding-right: 3em
+    .contact_wrap
+      padding-left: 0em
+      input:not(:last-child), textarea
+        min-width: 450px
+
+// @media screen and (min-width: 768px) and ( max-width:  991px)
+@mixin locationcontact768_991
+  .container-fuild:nth-child(9)
+    .location_wrap
+      padding-right: 3em
+      p
+        padding-top: .5em
+      .location_wrap_socnet
+        padding-top: 0em
+
+    .location_wrap_addres
+      padding-bottom: 0em
+    .contact_wrap
+      padding-left: 0em
+      input:not(:last-child), textarea
+        min-width: 350px
+
+
+// @media screen and (min-width: 576px) and ( max-width:  767px)
+@mixin locationcontact576_767
+  .container-fuild:nth-child(9)
+    overflow: hidden
+    .container
+      max-width: 100%
+      padding: 0
+      margin: 0
+
+    .location_wrap
+      padding-right: 1em
+
+    .location_wrap_addres
+      padding-top: 1.6em
+      padding-bottom: 0em
+      h4
+        font-size: 1em
+      p
+        padding-top: .5em
+
+    .location_wrap_socnet
+      padding-top: .5em
+    .contact_wrap
+      padding-right: .2em
+      padding-left: 0em
+
+      input:not(:last-child), textarea
+        min-width: 99%
+      textarea
+        columns: 2
+      h2
+        font-size: 1em
+
+// @media screen and (min-width: 480px) and ( max-width:  575px)
+@mixin locationcontact480_575
+  .container-fuild:nth-child(9)
+    background: $big-color1
+    padding: 0 0
+    overflow: hidden
+    .container
+      max-width: 100%
+      padding: 0
+      margin: 0
+
+    .col-12.col-sm-6:nth-child(1)
+      order: 2
+    .location_wrap
+      padding-right: 1em
+
+    .location_wrap_addres
+      padding-top: 1.6em
+      padding-bottom: 0em
+      h4
+        color: $text-color3
+        font-size: 1em
+      p
+        color: $text-color3
+        padding-top: .5em
+
+    .location_wrap_socnet
+      // padding-top: .5em
+      padding-bottom: 0
+      h4, p
+        color: $text-color3
+    .contact_wrap
+      margin: 0 auto
+      padding-left: 1em
+
+      input:not(:last-child), textarea
+        min-width: 95%
+      h2
+        font-size: 1em
+// @media screen and (min-width: 320px) and ( max-width:  479px)
+@mixin locationcontact320_479
+  .container-fuild:nth-child(9)
+    background: $big-color1
+    padding: 0 0
+    overflow: hidden
+    .container
+      max-width: 100%
+      padding: 0
+      margin: 0
+
+    .col-12.col-sm-6:nth-child(1)
+      order: 2
+    .location_wrap
+      padding-right: 1em
+
+    .location_wrap_addres
+      padding-top: 1.6em
+      padding-bottom: 0em
+      h4
+        color: $text-color3
+        font-size: 1em
+      p
+        color: $text-color3
+        padding-top: .5em
+
+    .location_wrap_socnet
+      // padding-top: .5em
+      padding-bottom: 0
+      h4, p
+        color: $text-color3
+    .contact_wrap
+      margin: 0 auto
+      padding-left: 1em
+
+      input:not(:last-child), textarea
+        min-width: 95%
+      h2
+        font-size: 1em

@@ -1,0 +1,80 @@
+// @media screen and ( min-width:  1200px)
+//
+// @media screen and (min-width: 992px) and ( max-width:  1024px)
+//
+// @media screen and (min-width: 768px) and ( max-width:  991px)
+@mixin consulting768_991
+  .container-fuild:nth-child(6)
+    overflow: hidden
+    padding: 4em 1em
+    section
+      max-width: 100%
+      .container
+        max-width: 100%
+        padding-right: 0px
+        .col-12.col-md-6.px-0:nth-child(2) .container-wrapper .rows:nth-child(1)
+            .txt_block .self_txt_block
+              padding: .5em .5em
+
+// @media screen and (min-width: 576px) and ( max-width:  767px)
+@mixin consulting576_767
+  .container-fuild:nth-child(6)
+    padding: 4em 1em
+    section
+      max-width: 100%
+      .container
+        max-width: 100%
+        padding-left: 15px
+        padding-right: 15px
+        .col-12:nth-child(2) .container-wrapper
+          padding-left: 1em
+          padding-right: 1em
+          .txt_block .self_txt_block
+            padding: .5em .5em
+        .square
+          display: none
+
+// @media screen and (min-width: 480px) and ( max-width:  575px)
+@mixin consulting480_575
+  .container-fuild:nth-child(6)
+    padding: 1em 1em
+    section
+      max-width: 100%
+      .container
+        max-width: 100%
+        padding-left: 15px
+        padding-right: 15px
+        .col-12:nth-child(2) .container-wrapper
+          padding-left: 1em
+          padding-right: 1em
+          .txt_block .self_txt_block
+            padding: .5em .5em
+        .square
+          display: none
+// @media screen and (min-width: 320px) and ( max-width:  479px)
+@mixin consulting320_479
+  .container-fuild:nth-child(6)
+    padding: 1em 0em
+    section
+      max-width: 100%
+      .container
+        max-width: 100%
+        padding-left: 0px
+        padding-right: 0px
+        margin: 0 0
+      .row
+        margin: 0 0
+        .col-12:nth-child(2) .container-wrapper
+          height: inherit
+          padding-left: 1em
+          padding-right: 1em
+          .rows:nth-child(1)
+            flex-direction: column!important
+          .rows:nth-child(2)
+            flex-direction: column!important
+          .txt_block .self_txt_block
+            padding: .5em .5em
+          .txt_block
+            margin-right: 0
+        .square
+          display: none

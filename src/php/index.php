@@ -170,6 +170,7 @@
           </div>
           <div class="row">
             <div class="col-12 col-sm-10">
+              <style>//- тут встроенные стили</style>
               <div class="col-12 col-sm-5">
                 <div class="card">
                   <div class="card-body">

@@ -1,3 +1,4 @@
+@import 'header/_media.sass'
 @import 'companyheader/_media.sass'
 @import 'aboutourcompany/_media.sass'
 @import 'CorporateDevelopment/_media.sass'
@@ -14,12 +15,14 @@
   @include dreamapp1200
 
 @media only screen  and (min-width: 992px) and ( max-width:  1024px)
+  @include companyheader_992_1024
   @include corporatedevelopment_992_1024
   @include dreamapp992_1024
   @include Corporatetrading_992_1024
   @include locationcontact992_1024
 
 @media only screen  and (min-width: 768px) and ( max-width:  991px)
+  @include companyheader_768_991
   @include corporatedevelopment_768_991
   @include consulting768_991
   @include dreamapp768_991
@@ -48,6 +51,7 @@
   @include footer480_575
 
 @media only screen  and (min-width: 320px) and ( max-width:  479px)
+  @include header_320_479
   @include companyheader_320_480
   @include aboutourcompany_480_576
   @include corporatedevelopment320_480

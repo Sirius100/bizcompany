@@ -5,15 +5,8 @@
       .col-12.col-sm-9
         padding-left: 0
       .row:nth-child(3)
-        // @supports (-webkit-appearance:none)
-        //   .col-12.col-sm-10
-        //     margin-left: 35em
         .col-12.col-sm-10
-          // for mozilla
-          // margin-left: 21.4em
-          // for webkit
           margin-left: 28em
-
           .card
             max-width: 300px
 
@@ -22,10 +15,16 @@
 @mixin dreamapp992_1024
   .container-fuild:nth-child(7)
     section
+      h1
+        margin-bottom: 70px
+        margin-right: 30%
+        font-size: 4em
+      .fon_square
+        top: 300px
       .row:nth-child(3)
         .col-12.col-sm-10
-          margin-left: 20.4em
-          margin-top: -39em
+          margin-left: 24.5em
+          margin-top: -54em
           .col-12.col-sm-5:nth-child(even)
             margin-left: -3em
           .card
@@ -42,20 +41,28 @@
     section
       .container
         margin-bottom: 1em
+        padding-left: 0
+        padding-right: 0
       h1
         margin-right: 0%
         margin-bottom: 50px
+      .col-12.col-sm-9
+        padding-left: 0
+        img
+          width: 137%
       .fon_square
         height: 600px
         top: 300px
       .row:nth-child(3)
-
         .col-12.col-sm-10
           max-width: 100%
           flex: 0 0 100%
           justify-content: space-between
           margin-left: 0em
           margin-top: 1em
+        .col-12.col-sm-5:nth-child(odd)
+          .card
+            margin-left: auto
         .col-12.col-sm-5
           margin: 1em 0
           padding: 0
@@ -69,21 +76,37 @@
     padding-right: .5em
     section
       .container
-        padding: 0 0
-        margin-bottom: 1em
+        max-width: 100%
+        padding: 0
+        margin: 0
+      h1
+        margin-left: 40px
+        margin-right: 14%
+        margin-bottom: 70px
+        font-size: 2.4em
 
       .col-12.col-sm-9
         padding-left: 0
-
+      .fon_square
+        height: 600px
+        top: 150px
       .row:nth-child(3)
+        text-align: center
+        width: 100%
+        margin-left: 0
         .col-12.col-sm-10
           flex: 0 0 100%
           max-width: 100%
+          min-width: 100%
           justify-content: space-between
-          margin-left: 0em
+          margin-left: auto
+          margin-right: auto
           margin-top: 1em
           padding-left: 0
           padding-right: 0
+        .col-12.col-sm-5:nth-child(odd)
+          .card
+            margin-left: auto
         .col-12.col-sm-5
           margin: 1em 0
           padding: 0
@@ -94,12 +117,7 @@
             h5
               font-size: 1em
 
-      h1
-        margin-right: 0
-        margin-bottom: 100px
-        font-size: 2.5em
-      .fon_square
-        top: 217px
+
 
 // @media screen and (min-width: 480px) and ( max-width:  576px)
 @mixin dreamapp480_576
@@ -108,6 +126,11 @@
       .container
         padding: 0 0
         margin-bottom: 1em
+      h1
+        margin-left: 40px
+        margin-right: 0
+        margin-bottom: 50px
+        font-size: 2.2em
       .col-12.col-sm-9
         padding-left: 0
 
@@ -131,13 +154,8 @@
             h5
               font-size: 1em
 
-      h1
-        margin-right: 0
-        margin-left: 0.5em
-        margin-bottom: 100px
-        font-size: 2.5em
       .fon_square
-        top: 320px
+        top: 110px
 
 // @media screen and (min-width: 320px) and ( max-width:  479px)
 @mixin dreamapp320_479
@@ -148,7 +166,11 @@
         margin-bottom: 1em
       .col-12.col-sm-9
         padding-left: 0
-
+      h1
+        margin-right: 0
+        margin-left: 1em
+        margin-bottom: 40px
+        font-size: 1.8em
       .row:nth-child(3)
         .col-12.col-sm-10
           flex: 0 0 100%
@@ -167,11 +189,5 @@
               padding: .7em
             h5
               font-size: 1em
-
-      h1
-        margin-right: 0
-        margin-left: 0.5em
-        margin-bottom: 100px
-        font-size: 2em
       .fon_square
-        top: 320px
+        top: 125px

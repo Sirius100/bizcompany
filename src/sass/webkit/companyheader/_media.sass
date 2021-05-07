@@ -3,26 +3,33 @@
 @mixin companyheader1200
   .container-fuild:nth-child(2)
     background-size: cover
-    // for mozilla
-    // background-position: 100% 0%
-    //for webkit
     background-position: 100% 0%
-    // for mozilla
-    // padding: 1em 0 25em 0
-    //for webkit
     padding: 1em 0 35em 0
 //@media screen and (min-width: 992px) and ( max-width:  1024px)
+@mixin companyheader_992_1024
+  .container-fuild:nth-child(2)
+    background-size: cover
+    background-position: 100% 0%
+    padding: 1em 0 35em 0
+
 //@media screen and (min-width: 768px) and ( max-width:  991px)
+@mixin companyheader_768_991
+  .container-fuild:nth-child(2)
+    background-size: cover
+    background-position: 82% 0%
+    padding: 1em 0 35em 0
+
 //@media screen and (min-width: 576px) and ( max-width:  767px)
 @mixin companyheader_576_767
   .container-fuild:nth-child(2)
+    background-size: cover
+    background-position: 82% 0%
+    padding: 1em 0 35em 0
     .container
       .row
         h1
           font-family: Oswald, Arial, sans-serif
           font-weight: 500
-          // for mozill
-          // font-size: 5em
           font-size: 5em
 
 //@media screen and (min-width: 480px) and ( max-width:  575px)
